@@ -14,7 +14,8 @@ open main.html file in any browser
 
 # sign up pages--
 ![Screenshot (3)](https://user-images.githubusercontent.com/56151722/94777325-eeddc100-03e0-11eb-9a6a-5a44a0afef3a.png)
-#email varification
+#email varification--
+
 ![Screenshot (4)](https://user-images.githubusercontent.com/56151722/94777207-b5a55100-03e0-11eb-8d95-615bfc32d2be.png)
 
 

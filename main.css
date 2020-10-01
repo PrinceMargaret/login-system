@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://wallpaper-house.com/data/out/9/wallpaper2you_342476.jpg');
+}
+
+h1 {
+    background-color: rgba(10, 7, 158, 0.616);
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .x {
+      border: 5px outset red;
+      background-color: rgb(0,0,0,0);
+      text-align: center;
+      font-size: xx-large;
+     border-radius: 22px;
+     font-style: italic;
+     
+
+  }
+  .nav1 {
+    padding: 10px;
+    font-size: large;
+    color: rgb(250, 246, 248);
+     font-weight: bolder;
+    
+  }
+  .nav {
+    float: right;
+    padding: 10px;
+    font-size: large;
+    color: rgb(250, 246, 248);
+     font-weight: bolder;
+     
+  }

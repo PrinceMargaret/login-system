@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP Page</title>
+    <link rel="stylesheet" href="SignUp.css">
+   
+</head>
+<body onload='document.form.email.focus()'>
+    
+   <div id='contentposition'>
+    <div id='boundery'>
+   
+        <form action="sql.py" id='form'   method="POST">
+         <div> 
+            <h1> Sign UP</h1>
+         </div>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="text"  class="input"  placeholder="Username" name='usrnm' required>
+    
+            </div>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="email"  class="input" style="color:  rgb(223, 129, 7);" placeholder="Email" name='email' onclick="" required>
+                
+            </div>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="password"    class="input" style="color: rgb(5, 5, 107);" placeholder="Password" name='password' required>
+                
+            </div>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input type="password"  class="input" style="color: rgb(25, 182, 187);" placeholder="Confirm Password" name='cpassword' required>
+                
+            </div>
+            <div class="input-container">
+                
+                    <button type="submit" id='Submit' > <!--a href="otp.html"> Submit </a--> Submit </button>
+                     
+            </div>
+        </form>
+        
+    </div>
+   
+    
+   </div>
+
+   
+  
+</body>
+</html>

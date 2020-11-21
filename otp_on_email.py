@@ -1,5 +1,6 @@
 #!C:\Users\PrinceMargaret\anaconda3\python.exe
 print("content-type:text/html\n\n")
+
 __author__="Prince"
 
 import smtplib ,math, random ,cgi,mysql.connector as mysql
@@ -30,7 +31,7 @@ OTP=generateOTP()
 #=============================================================================================================
 #editable part
 From, App_password="umeshagrahari025@gmail.com", "gghchchvjhvhj"     # this detail used for login in smtp.gmail.com server
-To="princeagrahari2000@gmail.com"          #give email where message you want send reciever email
+To=email         #give email where message you want send reciever email
 Subject="PrinceMargaret"           #write your own subject PrinceMargaret only for example
 Compose_email=f"your password is {OTP}"   #write what you want message 
 

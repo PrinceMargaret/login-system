@@ -2,25 +2,18 @@ body {
     background-image: url('bgimage.jpg');
 }
 
-
-
-
-    
-
-
 h1 {
     color: rgb(190, 228, 19);
     margin-right: 20px;
     text-shadow: 2px 2px 5px red;
     text-emphasis-color: inherit;
     font-style: italic;
-    
 }
-.input-container {
-    
-    padding: 8px;
 
+.input-container {
+    padding: 8px;
 }
+
 .input {
     background-color: transparent;
     padding: 10px;
@@ -31,20 +24,33 @@ h1 {
     color: rgb(11, 216, 62);
     font-size: medium;
     font-weight: bolder;
-    box-shadow: 13px 13px 13px rgb(0,0,0);
+    box-shadow: 13px 13px 13px rgb(0, 0, 0);
     text-size-adjust: initial;
+}
+
+#GetOTP {
+    background-color: chartreuse;
+    padding: 8px;
+    border-radius: 15px;
+    border-color: blueviolet;
+    cursor: pointer;
+    box-shadow: 4px 5px;
+}
+
+#GetOTP:hover {
+    background-color: brown;
 }
 
 #Submit {
     background-color: chartreuse;
     padding: 8px;
+    margin:10px;
     border-radius: 15px;
     border-color: blueviolet;
-    
     cursor: pointer;
-    box-shadow: 4px 5px  ;
-
+    box-shadow: 4px 5px;
 }
+
 #Submit:hover {
     background-color: brown;
 }
@@ -56,34 +62,10 @@ h1 {
     padding: 20px;
     box-shadow: 13px 13px 13px;
     text-align: center;
-    
-    
     overflow: auto;
-    
-
 }
+
 #contentposition {
-    margin-top:90px;
+    margin-top: 90px;
     margin-left: 500px;
 }
-    
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-  
-    
-  
-   
-    
- 
-

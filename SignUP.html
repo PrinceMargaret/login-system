@@ -1,53 +1,68 @@
 <!DOCTYPE html>
+<html>
+
+
 
 <head>
-    
+
     <title>SignUP Page</title>
     <link rel="stylesheet" href="cssfile.css">
-   
-</head>
-<body onload='document.form.email.focus()'>
-    
-   <div id='contentposition'>
-    <div id='boundery'>
-   
-        <form id='form' >
-         <div> 
-            <h1> Sign UP</h1>
-         </div>
-            <div class="input-container">
-                
-                <input type="text"  class="input"  placeholder="Username" name='usrnm' required>
-    
-            </div>
-            <div class="input-container">
-                
-                <input type="email"  class="input" style="color:  rgb(223, 129, 7);" placeholder="Email" name='email' onclick="" required>
-                
-            </div>
-            <div class="input-container">
-                
-                <input type="password"    class="input" style="color: rgb(5, 5, 107);" placeholder="Password" name='password' required>
-                
-            </div>
-            <div class="input-container">
-               
-                <input type="password"  class="input" style="color: rgb(25, 182, 187);" placeholder="Confirm Password" name='cpassword' required>
-                
-            </div>
-            <div class="input-container">
-                
-                    <button type="submit" id='Submit' > <a href="otp.html"> Submit </a> </button>
-                     
-            </div>
-        </form>
-        
-    </div>
-   
-    
-   </div>
 
-   
-  
+</head>
+
+<body onload="document.form.email.focus()">
+
+    <div id="contentposition">
+        <div id="boundery">
+
+            <form id="form1" action="otp_on_email.py" method="POST">
+                <div>
+                    <h1> Sign UP</h1>
+                </div>
+                <div class=" input-container ">
+
+                    <input type="text " class="input " placeholder="Username " name="usrnm" required>
+
+                </div>
+                <div class=" input-container ">
+
+                    <input type="email " class="input " style="color: rgb(223, 129, 7); " placeholder="Email " name="email" onclick=" " required>
+
+                </div>
+                <div class="input-container ">
+
+                    <input type="password " class="input " style="color: rgb(5, 5, 107); " placeholder="Password " name="password" required>
+
+                </div>
+                <div class=" input-container ">
+
+                    <input type="password " class="input " style="color: rgb(25, 182, 187); " placeholder="Confirm Password " name="cpassword" required>
+
+                </div>
+                <div class=" input-container ">
+                    <span>
+                        <input type="text" class="input " style="color: rgb(25, 182, 187); width: 130px;" placeholder="Enter OTP" name="cpassword" >
+                        <button type="submit " form="form1" value="Submit" id="GetOTP"> Get OTP<!--a href=" otp.html "> Submit </a--> </button>
+                    </span>
+                </div>
+
+
+                <div class=" input-container ">
+
+                <form action="otp_varify.py" method="POST" id="form2">
+                    <button type="submit " form="form2" value="Submit" id="Submit"> Submit<!--a href=" otp.html "> Submit </a--> </button>
+                </form>
+                </div>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+
 </body>
+
 </html>

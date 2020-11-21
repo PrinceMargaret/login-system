@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +8,29 @@
 </head>
 <body>
    
-   <div id='contentposition'>
-    <div id='boundery'>
+   <div id="contentposition">
+    <div id="boundery">
    
-        <form  id='form'>
+        <form action="otp_varify.py" method="POST" id="form">
          <div> 
             <h1>Email Varification</h1>
          </div>
+
+         <div class="input-container">
+                
+            <input type="text"    class="input" style="color: rgb(5, 5, 107);" placeholder="re enter email" name="remail" required>
+            
+        </div>
             
             
             <div class="input-container">
                 
-                <input type="text"    class="input" style="color: rgb(5, 5, 107);" placeholder="Enter OTP" name='otp' required>
+                <input type="text"    class="input" style="color: rgb(5, 5, 107);" placeholder="Enter OTP" name="OTP" required>
                 
             </div>
            
             <div class="input-container">
-                <button type="submit" id='Submit'>Submit</button>
+                <button type="submit" id="Submit">Submit</button>
             </div>
             
         </form>

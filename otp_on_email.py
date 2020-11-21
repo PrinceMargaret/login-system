@@ -14,9 +14,7 @@ email=form.getvalue("email")
 
 password=form.getvalue("password")
 cpassword=form.getvalue("cpassword")
-username='alok'
-email='alok@gmail.com'
-cpassword='xyz'
+
 #============================================================================================================
 def generateOTP() : 
    
@@ -63,6 +61,9 @@ cursor.close()
 
 #=================================================================================================================
   
+print ('''
+  <head><meta http-equiv="refresh" content="0;URL='otp.html'" /></head>    
+''')
 
       
  

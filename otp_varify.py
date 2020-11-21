@@ -8,14 +8,14 @@ import cgi,mysql.connector as mysql
 
 form=cgi.FieldStorage()
 
-email=form.getvalue("email")
+email=form.getvalue("remail")
                                                                                                #variables
 
 OTP=form.getvalue("OTP")
 
 
 email="princeagrahari2000@gmail.com"
-OTP='margaret'
+
 #============================================================================================================
 
 #===========================================================================================================================

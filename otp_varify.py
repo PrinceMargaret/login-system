@@ -1,6 +1,6 @@
 #!C:\Users\PrinceMargaret\anaconda3\python.exe
 print("content-type:text/html\n\n")
-__author__="Prince"
+__author__="Prince Jyoti"
 
 import cgi,mysql.connector as mysql
 
